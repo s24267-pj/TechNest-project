@@ -1,0 +1,19 @@
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.product-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.product-item a:hover {
+  text-decoration: underline;
+}
